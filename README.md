@@ -112,5 +112,10 @@ Improve front-end UX / admin dashboard.
 
 --------------------
 ## A Problem I Overcame
-
 A big problem I overcame was debugging the product search/filter feature. Some queries were returning incorrect results, so I traced the SQL logic and fixed how filters were applied (category, price range, subcategory). After the change, all search related Insomnia tests passed consistently.
+
+--------------------
+## A Piece of Code that was Fun to Write
+There were actually two pieces of code I really enjoyed writing. The first was fixing the product search method in MySqlProductDao. That was fun because it felt like real backend work, handling query parameters, building the SQL logic correctly, and using prepared statements to safely return the right results.
+
+The second was implementing admin-only protection in CategoriesController. I liked this part because it demonstrates security and clean API design by ensuring only users with the ADMIN role can create, update, or delete categories.
