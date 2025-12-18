@@ -29,3 +29,15 @@ A provided front-end web client consumes the API for browsing and shopping.
 The database seed includes demo users (example: `admin`, `user`, etc.).  
 Passwords for seeded accounts are typically: `password`.  
 Use `/login` to get a JWT token and include it for protected endpoints.
+
+----------
+## API Testing using Insomnia
+All base requirements were validated using the provided Insomnia collections.  
+To run automated tests:
+- Import the provided Insomnia YAML/JSON collections
+- Select the "capstone 3 api" folder, select all tests, and click **Run Folder**
+- Confirm all tests pass
+
+Final Result: **All required Insomnia tests pass**
+----------
+
