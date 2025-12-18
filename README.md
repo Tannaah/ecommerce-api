@@ -43,16 +43,18 @@ Final Result: **All required Insomnia tests pass!**
 
 ## What I Implemented & Fixed (How I Got Everything Passing)
 ### Phase 1: Categories
-- I started with updating the `MySqlCategoryDao` Class and gave it functionality. That fixed the tests
-- Then I updated and fixed the `CategoriesController` Class, that fixed the tests
-- Lastly, I updated and fixed the `MySqlProductDao` Class and the `search` Method to fix the last tests of
+- I started with updating the `MySqlCategoryDao` Class and gave it functionality. Then I updated and fixed the `CategoriesController` Class, that then passed all of the tests regarding the Categories.
+- Lastly, I updated and fixed the `MySqlProductDao` Class and the `search` Method. This filtering logic made it so all product search tests passed.
 
-- I also Added admin-only protection for category create/update/delete and ensured controller supports cross-origin requests (required for the front-end)
+- I also implemented missing DAO methods in `MySqlCategoryDao` and completed `CategoriesController` endpoints and added required annotations. I added ADMIN-only authorization for creating/updating/deleting categories.
 
 --------------------
 ### Phase 2: Bug Fixes
 - Fixed product search/filter logic so query parameters return correct results
 - Fixed product update behavior so updates do **not** create duplicate products
+
+- (Search filters were applying incorrect constraints, causing results to be too broad or mismatched.)
+- (Product updates were inserting new rows instead of updating the existing product.)
 
 --------------------
 ## Screenshots
@@ -94,7 +96,7 @@ Final Result: **All required Insomnia tests pass!**
 
 --------------------
 ## Interesting Code Spotlight
-One of the most important fixes was correcting the product update `search` behavior so updates modify the existing row instead of inserting duplicates.
+One of the most important fixes was correcting the product update behavior so updates modify the existing row instead of inserting duplicates.
 
 Why it’s interesting: it prevented duplicate products and made admin updates safe and reliable.
 
@@ -103,12 +105,9 @@ Why it’s interesting: it prevented duplicate products and made admin updates s
 
 --------------------
 ## Future Improvements
-
-Add stronger validation & error messages.
-
-More unit tests for edge cases.
-
-Improve front-end UX / admin dashboard.
+- Add stronger validation & clearer error responses.
+- Write more unit tests for edge cases.
+- Improve admin UX / front-end workflow.
 
 --------------------
 ## A Problem I Overcame
@@ -122,7 +121,9 @@ The second was implementing admin-only protection in CategoriesController. I lik
 
 --------------------
 ## Reflection and Closing
-This capstone strengthened my confidence working in a real backend codebase where I had to debug existing functionality, implement missing endpoints, and validate everything through automated API tests in Insomnia. I improved my understanding of building REST APIs with Spring Boot, writing DAO logic with SQL/PreparedStatements, and applying role-based security (ADMIN-only access) in controllers. The most valuable part of this project was learning how to isolate bugs through testing and make focused fixes without breaking other features. Overall, this project felt like “real-world” backend development and I’m proud of finishing with all required tests passing and a working front-end experience.
+This capstone strengthened my confidence working in a real backend codebase where I had to debug existing functionality, implement missing endpoints, and validate everything through automated API tests in Insomnia. I improved my understanding of building REST APIs with Spring Boot, writing DAO logic with SQL and PreparedStatements, and applying role-based security (ADMIN-only access) in controllers. The most valuable part of this project was learning how to isolate issues through testing and make focused fixes without breaking other features. Overall, this project felt like real-world backend development, and I’m proud to finish with all required tests passing and a working front-end experience.
+
+Thank you for reviewing my capstone. I’m proud of the progress I made and enjoyed the challenge of taking an existing codebase and turning it into a fully working, tested solution. I am excited for what’s next.
 
 --------------------
-# ⭐️ Developed by Tanner Hodges.
+# Developed by Tanner Hodges.
