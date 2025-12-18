@@ -42,19 +42,35 @@ Final Result: **All required Insomnia tests pass!**
 --------------------
 
 ## What I Implemented & Fixed (How I Got Everything Passing)
-### Phase 1: Categories
-- I started with updating the `MySqlCategoryDao` Class and gave it functionality. Then I updated and fixed the `CategoriesController` Class, that then passed all of the tests regarding the Categories.
-- Lastly, I updated and fixed the `MySqlProductDao` Class and the `search` Method. This filtering logic made it so all product search tests passed.
+### Phase 1: Categories & Products
+I started with updating the `MySqlCategoryDao` Class and gave it functionality. Then I updated and fixed the `CategoriesController` Class, that then passed all of the tests regarding the Categories.
 
-- I also implemented missing DAO methods in `MySqlCategoryDao` and completed `CategoriesController` endpoints and added required annotations. I added ADMIN-only authorization for creating/updating/deleting categories.
+Lastly, I updated and fixed the `MySqlProductDao` Class and the `search` Method. This filtering logic made it so all product search tests passed.
+
+I also implemented missing DAO methods in `MySqlCategoryDao` and completed `CategoriesController` endpoints and added required annotations. As well as added ADMIN-only authorization for creating/updating/deleting categories.
 
 --------------------
 ### Phase 2: Bug Fixes
-- Fixed product search/filter logic so query parameters return correct results
-- Fixed product update behavior so updates do **not** create duplicate products
+Fixed product search/filter logic so query parameters return correct results.
+  - (Search filters were applying incorrect constraints, causing results to be too broad or mismatched.)
 
-- (Search filters were applying incorrect constraints, causing results to be too broad or mismatched.)
-- (Product updates were inserting new rows instead of updating the existing product.)
+Fixed product update behavior so updates do **not** create duplicate products.
+  - (Product updates were inserting new rows instead of updating the existing product.)
+
+--------------------
+## Key Endpoints
+- `POST /login` (returns JWT)
+- `GET /products` (filters: `cat`, `minPrice`, `maxPrice`, `subCategory`)
+- `GET /products/{id}`
+- `GET /categories`
+- `GET /categories/{id}`
+- Admin-only:
+  - `POST /categories`
+  - `PUT /categories/{id}`
+  - `DELETE /categories/{id}`
+  - `POST /products`
+  - `PUT /products/{id}`
+  - `DELETE /products/{id}`
 
 --------------------
 ## Screenshots
