@@ -84,9 +84,16 @@ Final Result: **All required Insomnia tests pass!**
 --------------------
 
 ## Video Game Store Website
-With functioning category option + minumum & Maximum price values, etc.
+(With functioning category option + minumum & Maximum price values, etc.)
 
 <img width="1919" height="956" alt="Screen Shot 2025-12-18 at 16 42 53 PM" src="https://github.com/user-attachments/assets/5150160f-de71-43e9-8091-e2af4c2031a5" />
+
+--------------------
+
+## MySQLWorkbench
+(With videogamestore Database)
+
+<img width="881" height="997" alt="Screen Shot 2025-12-18 at 16 39 38 PM" src="https://github.com/user-attachments/assets/db5ef62f-9eaf-480b-94f4-a11d6cba8715" />
 
 --------------------
 ## Interesting Code Spotlight
