@@ -105,3 +105,11 @@ Why it’s interesting: it prevented duplicate products and made admin updates s
 <img width="911" height="860" alt="Screen Shot 2025-12-18 at 15 45 00 PM" src="https://github.com/user-attachments/assets/15bc9e76-c625-42dc-b925-be2f1a27049f" />
 
 --------------------
+
+## Future Improvements
+
+Add stronger validation & error messages.
+
+More unit tests for edge cases.
+
+Improve front-end UX / admin dashboard.
