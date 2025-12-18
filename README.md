@@ -4,3 +4,12 @@
 This project is a Spring Boot API for an e-commerce Video Game Store.  
 It supports browsing products, filtering/searching, managing categories, and admin-only product/category management.  
 A provided front-end web client consumes the API for browsing and shopping.
+
+----------
+## Tech Stack
+- Java + Spring Boot
+- MySQL (Workbench for Database setup)
+- Insomnia (API Testing + Automated Test Suite)
+- HTML/CSS/JavaScript front-end (Provided Client)
+
+----------
