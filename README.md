@@ -74,6 +74,19 @@ Final Result: **All required Insomnia tests pass!**
 ### After
 <img width="251" height="84" alt="Screen Shot 2025-12-18 at 16 24 25 PM" src="https://github.com/user-attachments/assets/2d8fac67-e9ed-43e6-832f-73ace7e10dd1" />
 
+--------------------
+
+## All Required Insomnia Tests Pass!
+
+<img width="423" height="907" alt="Screen Shot 2025-12-18 at 16 36 01 PM" src="https://github.com/user-attachments/assets/2d92300d-3076-47d4-8871-917a18934280" />
+<img width="447" height="153" alt="Screen Shot 2025-12-18 at 16 36 10 PM" src="https://github.com/user-attachments/assets/3c2ce95c-4120-4690-bf58-68e77a6d83fc" />
+
+--------------------
+
+## Video Game Store Website
+With functioning category option + minumum & Maximum price values, etc.
+
+<img width="1919" height="956" alt="Screen Shot 2025-12-18 at 16 42 53 PM" src="https://github.com/user-attachments/assets/5150160f-de71-43e9-8091-e2af4c2031a5" />
 
 --------------------
 ## Interesting Code Spotlight
