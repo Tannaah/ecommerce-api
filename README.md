@@ -75,21 +75,18 @@ Final Result: **All required Insomnia tests pass!**
 <img width="251" height="84" alt="Screen Shot 2025-12-18 at 16 24 25 PM" src="https://github.com/user-attachments/assets/2d8fac67-e9ed-43e6-832f-73ace7e10dd1" />
 
 --------------------
-
 ## All Required Insomnia Tests Pass!
 
 <img width="423" height="907" alt="Screen Shot 2025-12-18 at 16 36 01 PM" src="https://github.com/user-attachments/assets/2d92300d-3076-47d4-8871-917a18934280" />
 <img width="447" height="153" alt="Screen Shot 2025-12-18 at 16 36 10 PM" src="https://github.com/user-attachments/assets/3c2ce95c-4120-4690-bf58-68e77a6d83fc" />
 
 --------------------
-
 ## Video Game Store Website
 (With functioning category option + minumum & Maximum price values, etc.)
 
 <img width="1919" height="956" alt="Screen Shot 2025-12-18 at 16 42 53 PM" src="https://github.com/user-attachments/assets/5150160f-de71-43e9-8091-e2af4c2031a5" />
 
 --------------------
-
 ## MySQLWorkbench
 (With videogamestore Database)
 
@@ -105,7 +102,6 @@ Why it’s interesting: it prevented duplicate products and made admin updates s
 <img width="911" height="860" alt="Screen Shot 2025-12-18 at 15 45 00 PM" src="https://github.com/user-attachments/assets/15bc9e76-c625-42dc-b925-be2f1a27049f" />
 
 --------------------
-
 ## Future Improvements
 
 Add stronger validation & error messages.
@@ -113,3 +109,8 @@ Add stronger validation & error messages.
 More unit tests for edge cases.
 
 Improve front-end UX / admin dashboard.
+
+--------------------
+## A Problem I Overcame
+
+A big problem I overcame was debugging the product search/filter feature. Some queries were returning incorrect results, so I traced the SQL logic and fixed how filters were applied (category, price range, subcategory). After the change, all search related Insomnia tests passed consistently.
