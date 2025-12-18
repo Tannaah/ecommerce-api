@@ -25,3 +25,7 @@ A provided front-end web client consumes the API for browsing and shopping.
    - Open the web project and launch `index.html` via the provided local server option
 
 ----------
+## Authentication (Demo Users)
+The database seed includes demo users (example: `admin`, `user`, etc.).  
+Passwords for seeded accounts are typically: `password`.  
+Use `/login` to get a JWT token and include it for protected endpoints.
