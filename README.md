@@ -119,3 +119,10 @@ A big problem I overcame was debugging the product search/filter feature. Some q
 There were actually two pieces of code I really enjoyed writing. The first was fixing the product search method in MySqlProductDao. That was fun because it felt like real backend work, handling query parameters, building the SQL logic correctly, and using prepared statements to safely return the right results.
 
 The second was implementing admin-only protection in CategoriesController. I liked this part because it demonstrates security and clean API design by ensuring only users with the ADMIN role can create, update, or delete categories.
+
+--------------------
+## Reflection and Closing
+This capstone strengthened my confidence working in a real backend codebase where I had to debug existing functionality, implement missing endpoints, and validate everything through automated API tests in Insomnia. I improved my understanding of building REST APIs with Spring Boot, writing DAO logic with SQL/PreparedStatements, and applying role-based security (ADMIN-only access) in controllers. The most valuable part of this project was learning how to isolate bugs through testing and make focused fixes without breaking other features. Overall, this project felt like “real-world” backend development and I’m proud of finishing with all required tests passing and a working front-end experience.
+
+--------------------
+# ⭐️ Developed by Tanner Hodges.
