@@ -143,4 +143,8 @@ This capstone strengthened my confidence working in a real backend codebase wher
 Thank you for reviewing my capstone. I’m proud of the progress I made and enjoyed the challenge of taking an existing codebase and turning it into a fully working, tested solution. I am excited for what’s next.
 
 --------------------
+### 🌐 Front-end GitHub Link
+https://github.com/Tannaah/ecommerce-web
+
+--------------------
 # 👨‍💻 Developed by Tanner Hodges.
